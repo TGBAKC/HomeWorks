@@ -1,54 +1,24 @@
 import java.util.Scanner;
 
 public class wonderfulTall {
-
     public static void main(String[] args) {
-        System.out.println("bir sayi griniz");
-       Scanner scanner = new Scanner(System.in);
-        int p = scanner.nextInt();
 
-  for(int i =2;i<=p;i++){
+        System.out.println("Bir tam sayı giriniz:");
+        Scanner scanner = new Scanner(System.in);
+        int sayi = scanner.nextInt();
 
+        int toplam = 0;
 
-      if(p % i==0){
+        for (int i = 1; i < sayi; i++) {  // i = 1, i < sayi !!
+            if (sayi % i == 0) {
+                toplam += i;
+            }
+        }
 
-          System.out.println("p asal degil");
-
-
-
-      }
-
-      else{
-
-
-          System.out.println("bu asaldir");
-
-      }
-      if(p % 2 !=0){
-
-        int result = (int) Math.pow(2, p - 1);
-
-          System.out.println("sadkkf" + result);
-
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        if (toplam == sayi) {
+            System.out.println("Bu sayı mükemmel sayıdır.");
+        } else {
+            System.out.println("Bu sayı mükemmel sayı değildir.");
+        }
     }
-}}
+}
