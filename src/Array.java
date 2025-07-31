@@ -49,9 +49,6 @@ public class Array {
 
 
 
-        System.out.println("En yakın iki sayı: " + sayi1 + " ve " + sayi2);
-        System.out.println("Aralarındaki fark: " + minFark);
-
 
 
 
