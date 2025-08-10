@@ -37,5 +37,4 @@ This project was developed as part of the **Patika+ Back-End Web Developer Bootc
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/library-management-system.git
-cd library-management-system
+git clone https://github.com/TGBAKC/library-management-system.git
