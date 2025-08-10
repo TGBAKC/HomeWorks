@@ -33,7 +33,7 @@ public class employe {
         public String getEmail() { return email; }
     }
 
-    // Programin baslangic noktasi
+    // Programin baslangic noktasi burasidir//
     public static void main(String[] args) {
         // employe icindeki bilgilere ulasmak icin bir nesne olusturuyoruz
         employe employe = new employe();
